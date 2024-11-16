@@ -5,8 +5,8 @@ export default function Sidebar() {
         <div className="sidebar--container">
             <p>test</p>
             <div className="sidebar--footer">
-                <img src="/images/GitHubIcon.svg" />
-                <img src="/images/LinkedInIcon.svg" />
+                <img src="/../images/GithubIcon.svg"/>
+                <img src="/../images/LinkedInIcon.svg" />
             </div>
         </div>
     )
