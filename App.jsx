@@ -1,9 +1,10 @@
+import Sidebar from "/components/Sidebar.jsx"
 
 function App() {
   return (
-    <>
-      <h1>innit</h1>
-    </>
+    <div>
+        <Sidebar />
+    </div>
   )
 }
 
