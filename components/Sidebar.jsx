@@ -1,11 +1,14 @@
 import React from "react"
-import GithubIcon from "/images/GitHubIcon.svg"
-import LinkedInIcon from "/images/LinkedInIcon.svg"
+import GithubIcon from "/images/sidebar/GitHubIcon.svg"
+import LinkedInIcon from "/images/sidebar/LinkedInIcon.svg"
+import ProfileImage from "/images/sidebar/profile.jpg"
 
 export default function Sidebar() {
     return (
         <div className="sidebar--container">
-            <p>test</p>
+            <div className="sidebar--profile">
+                <img src={ProfileImage} className="sidebar--profile-image"/>
+            </div>
             <div className="sidebar--footer">
                 <img src={GithubIcon}/>
                 <img src={LinkedInIcon} />
