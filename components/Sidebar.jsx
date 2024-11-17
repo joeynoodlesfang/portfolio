@@ -9,7 +9,18 @@ export default function Sidebar() {
             <div className="sidebar--profile">
                 <img src={ProfileImage} className="sidebar--profile-image"/>
             </div>
+
+            <div className="sidebar--content">
+                <p className="sidebar--content-name">Joe Fang</p>
+                <p className="sidebar--content-jobtitle">Software Developer</p>
+                <p className="sidebar--content-section-title">About</p>
+                <p className="sidebar--content-section-content">I am a developer with a strong background in IoT, AWS integration, and embedded systems, currently transitioning into software engineering to explore new opportunities. I’m passionate about building innovative solutions and constantly improving my skills in software development.</p>
+                <p className="sidebar--content-section-title">Interests</p>
+                <p className="sidebar--content-section-content">Reader. Traveler. Gamer. Just keep coding.</p>
+            </div>
+{/* add content box for sections */}
             <div className="sidebar--footer">
+                {/* add email icon */}
                 <img src={GithubIcon}/>
                 <img src={LinkedInIcon} />
             </div>
