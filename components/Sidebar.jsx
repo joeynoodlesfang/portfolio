@@ -60,9 +60,9 @@ export default function Sidebar() {
                         </button>
                     </a>
                 </div>
-                <div className="sidebar--content-text">
-                    <p className="sidebar--content-section-title">About</p>
-                    <div className="sidebar--content-section-content">
+                <div className="sidebar--content-textsection">
+                    <p className="sidebar--content-textsection-title">About</p>
+                    <div className="sidebar--content-textsection-content">
                         <p>I am a developer with a strong background in IoT, embedded systems, and firmware development, leveraging my expertise to pursue impactful opportunities in software engineering. </p>
                         <p>I’m passionate about building innovative solutions and constantly improving my skills in software development.</p>
                     </div>

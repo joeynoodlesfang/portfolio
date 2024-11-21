@@ -6,18 +6,22 @@ body {
 /* Group 146 */
 
 .sidebar--container {
-    position: absolute;
+    position: relative;
     width: 317px;
-    height: 780px;
-    left: 116px;
-    top: 44px;
+    /* height: 780px; */
+    min-height: 100vh;
+    overflow: auto;
+    margin-left: 116px;
+    margin-top: 44px;
     background-color: #1A1B21;
+    padding: 0px;
     
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 10px 10px 10px 10px;
 
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
     
 }
 .sidebar--profile {
@@ -41,6 +45,7 @@ body {
 
 .sidebar--content {
 
+    flex-grow: 1;
     background: #1A1B21;
 
 }
@@ -141,11 +146,11 @@ body {
 
 }
 
-.sidebar--content-text {
+.sidebar--content-textsection {
     margin: 35px;
 }
 
-.sidebar--content-section-title {
+.sidebar--content-textsection-title {
 
     color: #F5F5F5;
     font-weight: 700;
@@ -153,7 +158,7 @@ body {
 
 }
 
-.sidebar--content-section-content {
+.sidebar--content-textsection-content {
 
     color: #DCDCDC;
     font-weight: 400;
@@ -164,10 +169,9 @@ body {
 .sidebar--footer {
     /* Social Icons Background */
 
-    position: absolute;
+    /* position: absolute; */
     width: 317px;
     height: 64px;
-    bottom: 0;
     /* left: 116px;
     top: 760px; */
 
