@@ -23,12 +23,17 @@ body {
 .sidebar--profile {
 
 }
+
 .sidebar--profile-image {
     box-sizing: border-box;
+    display: block;
     border: 1px solid #000000;
 
-    width: 100%;
-    border-radius: 10px 10px 0px 0px;
+    margin-top: 32px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px 10px 10px 10px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     /* position: absolute;
     top: 0; */
@@ -63,6 +68,83 @@ body {
 
 }
 
+.sidebar--email-button-container {
+    display: block; 
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sidebar--email-button-container a {
+    text-decoration: none; /* Removes underline */
+    color: inherit;        /* Inherits the button's text color */
+}
+
+.sidebar--email-button-button {
+    /* Button */
+
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    /* white */
+    /* background: #FFFFFF; */
+    /* gray/300 */
+    border: 1px solid #D1D5DB;
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+
+}
+
+/* .sidebar--email-button-button:active {
+    background-color: #0056b3;
+    color: #FFFFFF;
+} */
+
+
+
+.sidebar--email-button-button-img {
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 20%;
+    bottom: 20%;
+
+    background: #1E1F26;
+
+}
+
+.sidebar--email-button-button-text {
+    /* Text */
+
+    width: 36px;
+    height: 16px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    /* gray/700 */
+    color: #374151;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.sidebar--content-text {
+    margin: 35px;
+}
+
 .sidebar--content-section-title {
 
     color: #F5F5F5;
@@ -75,7 +157,7 @@ body {
 
     color: #DCDCDC;
     font-weight: 400;
-    font-size: 10px;
+    font-size: 13px;
 
 }
 
