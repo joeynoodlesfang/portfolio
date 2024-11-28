@@ -18,6 +18,7 @@ export default function Sidebar() {
                 <p className="sidebar--content-section-title">Interests</p>
                 <p className="sidebar--content-section-content">Reader. Traveler. Gamer. Just keep coding.</p>
             </div>
+            {/* text in content a bit bigger */}
 {/* add content box for sections */}
             <div className="sidebar--footer">
                 {/* add email icon */}
